@@ -64,3 +64,35 @@ a {
 }
 
 
+
+/* hero section  */
+.hero{
+    max-width: var(--container);
+    
+
+    background:#fefefe;
+    margin: 0 auto;
+    
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.hero_left , .hero_right{
+    width: 50%;
+    padding: 50px 10px;
+}
+
+.hero_left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+/* profile pic */
+.profile_pic{
+    height: 300px;
+    width: 300px;
+    border-radius: var(--radius_5px);
+}

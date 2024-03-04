@@ -1,27 +1,3 @@
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
-}
-
-body {
-    background-color: var(--bg_color);
-
-}
-
-a {
-    text-decoration: none;
-    color: var(--link_txt);
-}
-
-
-
-
-/* Frequently used classes */
-
-
 /* top nav bar  */
 .primary_nav {
     max-width: var(--container);
@@ -68,25 +44,22 @@ a {
 /* hero section  */
 .hero{
     max-width: var(--container);
-    
-
     background:#fefefe;
-    margin: 0 auto;
-    
+    margin: 0 auto; 
+    padding: 80px 20px ;
     display: flex;
     justify-content: start;
     align-items: start;
+    gap: 10px;
+    
 }
 
-.hero_left , .hero_right{
-    width: 50%;
-    padding: 50px 10px;
-}
 
 .hero_left{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    
 }
 
 
@@ -95,4 +68,21 @@ a {
     height: 300px;
     width: 300px;
     border-radius: var(--radius_5px);
+}
+.profile_info{
+    padding-left: 10px;
+}
+
+.social_icon_container{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+.social_icon_container img{
+    width: 24px;
+    height: 24px;
+}
+.hero_right{
+    padding-left: 100px;
 }

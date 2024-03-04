@@ -1,0 +1,23 @@
+
+@media only screen and (max-width: 768px) {
+
+    /* responsive top nav bar for mobile devices :v  */
+
+    .nav_TG {
+        display: none;
+    }
+
+    .nav_logo {
+        font-size: 18px;
+    }
+
+    .nav_menu li {
+        margin-right: 10px;
+
+    }
+
+    .nav_menu a {
+        font-size: 14px;
+
+    }
+}

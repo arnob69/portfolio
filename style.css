@@ -1,0 +1,88 @@
+/* top nav bar  */
+.primary_nav {
+    max-width: var(--container);
+    margin: 0 auto;
+    background-color: var(--card_bg);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: var(--radius_5px);
+    position: sticky;
+    top: 0; 
+    z-index: 1; 
+
+}
+
+.nav_menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav_menu li {
+    margin-right: 20px;
+}
+
+.nav_menu a {
+    text-decoration: none;
+    color: var(--link_txt);
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.nav_menu a:hover,
+.nav_menu a:hover:active {
+    color: var(--primary_color);
+}
+
+
+
+/* hero section  */
+.hero{
+    max-width: var(--container);
+    background:#fefefe;
+    margin: 0 auto; 
+    padding: 80px 20px ;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+    
+}
+
+
+.hero_left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+
+/* profile pic */
+.profile_pic{
+    height: 300px;
+    width: 300px;
+    border-radius: var(--radius_5px);
+}
+.profile_info{
+    padding-left: 10px;
+}
+
+.social_icon_container{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+.social_icon_container img{
+    width: 24px;
+    height: 24px;
+}
+.hero_right{
+    padding-left: 100px;
+}

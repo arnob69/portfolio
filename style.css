@@ -1,3 +1,7 @@
+.nav_logo {
+    font-size: 18px;
+}
+
 /* top nav bar  */
 .primary_nav {
     max-width: var(--container);
@@ -10,8 +14,8 @@
     margin-top: 20px;
     border-radius: var(--radius_5px);
     position: sticky;
-    top: 0; 
-    z-index: 1; 
+    top: 0;
+    z-index: 1;
 
 }
 
@@ -27,10 +31,7 @@
 }
 
 .nav_menu a {
-    text-decoration: none;
-    color: var(--link_txt);
-    font-weight: bold;
-    font-size: 16px;
+    color: #fefefe;
     transition: color 0.3s ease;
 }
 
@@ -42,47 +43,70 @@
 
 
 /* hero section  */
-.hero{
+.hero {
     max-width: var(--container);
-    background:#fefefe;
-    margin: 0 auto; 
-    padding: 80px 20px ;
+    margin: 0 auto;
+    padding: 80px 20px;
     display: flex;
     justify-content: start;
     align-items: start;
     gap: 10px;
-    
+
 }
 
 
-.hero_left{
+.hero_left {
+    
     display: flex;
     flex-direction: column;
     gap: 10px;
-    
+
 }
 
 
 /* profile pic */
-.profile_pic{
+.profile_pic {
     height: 300px;
     width: 300px;
     border-radius: var(--radius_5px);
 }
-.profile_info{
+
+.profile_info {
     padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
-.social_icon_container{
+.social_icon_container {
     width: 300px;
     display: flex;
     justify-content: space-between;
     padding-left: 10px;
+    padding-right: 30px;
+    margin-top: 10px;
 }
-.social_icon_container img{
-    width: 24px;
-    height: 24px;
+
+.social_icon_container img {
+    width: 28px;
+    height: 28px;
+    transition: transform 0.3s ease;
+
 }
-.hero_right{
-    padding-left: 100px;
+
+.social_icon_container img:hover {
+    transform: translateY(-5px);
+
+}
+
+.hero_right {
+    padding-left: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero_title {
+    font-size: calc(20px + (16 * ((100vw - 320px) / 680)));
+
 }

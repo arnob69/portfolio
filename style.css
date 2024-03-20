@@ -43,10 +43,9 @@
 
 
 /* hero section  */
+
 .hero {
-    max-width: var(--container);
-    margin: 0 auto;
-    padding: 80px 20px;
+
     display: flex;
     justify-content: start;
     align-items: start;
@@ -56,7 +55,7 @@
 
 
 .hero_left {
-    
+
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -78,25 +77,8 @@
     gap: 10px;
 }
 
-.social_icon_container {
+.social_iocn {
     width: 300px;
-    display: flex;
-    justify-content: space-between;
-    padding-left: 10px;
-    padding-right: 30px;
-    margin-top: 10px;
-}
-
-.social_icon_container img {
-    width: 28px;
-    height: 28px;
-    transition: transform 0.3s ease;
-
-}
-
-.social_icon_container img:hover {
-    transform: translateY(-5px);
-
 }
 
 .hero_right {
@@ -109,4 +91,20 @@
 .hero_title {
     font-size: calc(20px + (16 * ((100vw - 320px) / 680)));
 
+}
+
+
+/* Skills section  */
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.skills_icon{
+    width: 500px;
+}
+.skills_icon img {
+    height: 48px;
+    width: 48px;
 }

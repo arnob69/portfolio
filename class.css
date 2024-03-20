@@ -70,15 +70,16 @@ ol {
     line-height: 1.4;
     color: #66CDCC;
 }
-.text{
-    
-        font-family: var(--paragraph-font), sans-serif;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 1.6;
-        color:#b9c8e9;
-      }
-      
+
+.text {
+
+    font-family: var(--paragraph-font), sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #b9c8e9;
+}
+
 
 .highlighted {
     color: var(--primary_color);
@@ -86,4 +87,38 @@ ol {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.6;
+}
+.center{
+    text-align: center;
+}
+
+.container_box{
+    max-width: var(--container);
+    margin: 50px  auto 50px auto;
+    padding: 80px 20px;
+    background-image: url(Images/h.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+}
+
+.icon_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 30px;
+    margin-top: 10px;
+}
+
+.icon_container img {
+    width: 28px;
+    height: 28px;
+    transition: transform 0.3s ease;
+
+}
+
+.icon_container img:hover {
+    transform: translateY(-5px);
+
 }

@@ -22,6 +22,13 @@
     --button_bg: #00000000;
     --button_txt: #fff;
     --button_border: #fff;
+    --btn-padding: 10px 25px;
+    --btn-transition: .3s;
+    --btn-letter-spacing: .1rem;
+    --btn-animation-duration: 1.5s;
+    --font-size: 16px;
+    --font-weight: 600;
+    
 
     /* fonts  */
     --heading-font: 'Montserrat', sans-serif;

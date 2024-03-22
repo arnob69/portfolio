@@ -100,11 +100,21 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    row-gap: 20px;
+}
+.skills_title{
+    font-size: 48px;
+    color: var(--text_color);
+    padding: 20px 0px;
+    border-bottom: 5px dashed var(--primary_color);
 }
 .skills_icon{
-    width: 500px;
+    max-width: 500px;
+    margin: 20px;
+
 }
 .skills_icon img {
-    height: 48px;
-    width: 48px;
+    height: 42px;
+    width: 42px;
 }
+

@@ -213,12 +213,18 @@ ol {
 
 .container_box {
     max-width: var(--container);
-    margin: 50px auto 50px auto;
+    margin: 50px auto;
     padding: 80px 20px;
-    background-image: url(Images/h.jpg);
-    background-repeat: no-repeat;
+    border-radius: 5px;
+    /* background-image: url(Images/h.jpg); */
+    /* background-color: var(--card_bg); */
+    /* background-repeat: no-repeat;
     background-position: 0 0;
     background-size: cover;
+    background-attachment: fixed; */
+    
+    border: 1px solid var(--card_bg);
+    
 }
 
 .icon_container {

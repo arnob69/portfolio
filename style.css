@@ -97,16 +97,16 @@
 /* Skills section  */
 .skills {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    row-gap: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items : center;
+    gap: 20px;
 }
 .skills_title{
-    font-size: 48px;
+    font-size: 32px;
     color: var(--text_color);
     padding: 20px 0px;
-    border-bottom: 5px dashed var(--primary_color);
+    border-bottom: 1px dashed var(--primary_color);
 }
 .skills_icon{
     max-width: 500px;
@@ -114,7 +114,8 @@
 
 }
 .skills_icon img {
-    height: 42px;
-    width: 42px;
+    height: 36px;
+    width: 36px;
+    border: 1px solid #fefefe;
 }
 

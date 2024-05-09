@@ -64,7 +64,15 @@
 }
 
 
+
 /* profile pic */
+.profile_pic_container{
+    height: 300px;
+    width: 300px;
+    border-radius: var(--radius_5px);
+    background-image: url(Images/arnob.png);
+    background-size: cover;
+}
 .profile_pic {
     height: 300px;
     width: 300px;
